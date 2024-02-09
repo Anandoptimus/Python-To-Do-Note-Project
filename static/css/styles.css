@@ -1,0 +1,165 @@
+/* Reset some default styles */
+body, h1, h2, ul, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #d2f5e3; /* Light greenish background color for a nature feel */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #68c3a3; /* Greenish header color */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#todo-container {
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 80px auto 0; /* Adjusted margin to accommodate the fixed header */
+    overflow: hidden;
+}
+
+.task-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+#task-title,
+#task-description,
+#task-date {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    border: 2px solid #badc58; /* Soft green border color for input fields */
+    border-radius: 8px;
+}
+
+#add-task-btn {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    background-color: #68c3a3; /* Greenish button color */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#add-task-btn:hover {
+    background-color: #48a880; /* Darker green on hover */
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 2px solid #badc58; /* Soft green border color for tasks */
+    border-radius: 8px;
+    background-color: #fff;
+    transition: transform 0.3s;
+}
+
+.task input[type="checkbox"] {
+    margin-bottom: 10px;
+}
+
+.task span {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.task button {
+    background-color: #e74c3c; /* Red button color */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.task button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+
+/* Add hover effect for tasks */
+.task:hover {
+    transform: scale(1.02);
+}
+
+/* Updated styling with dynamic and nature-inspired appearance */
+.task-display {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.task-item {
+    background-color: #68c3a3; /* Greenish background color */
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(104, 195, 163, 0.3); /* Soft green box shadow for depth */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: transform 0.3s;
+}
+
+.task-item:hover {
+    transform: scale(1.05);
+}
+
+.task-item h2 {
+    margin: 0;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.task-item p {
+    margin: 5px;
+}
+
+/* Pulse animation for task items */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
