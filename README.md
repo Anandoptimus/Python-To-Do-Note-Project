@@ -1,9 +1,9 @@
-# _15Python To-Do Note Project__
-Overview
+# Python To-Do Note Project
+## Overview
 This Python To-Do Note Project is a simple yet powerful web application that allows users to manage their tasks and notes efficiently. It provides a user-friendly interface for adding, editing, and deleting tasks, along with features to include additional details such as task descriptions and due dates.
 
-Features
-Add Tasks: Easily add tasks with a title, description, and due date to keep track of your to-do list.
+## Features
++ Add Tasks: Easily add tasks with a title, description, and due date to keep track of your to-do list.
 Edit Tasks: Modify task details, update descriptions, and change due dates effortlessly.
 Delete Tasks: Remove completed or unnecessary tasks to keep your list organized.
 Responsive Design: The application is designed to be responsive, ensuring a seamless experience across various devices.
