@@ -15,16 +15,27 @@ This Python To-Do Note Project is a simple yet powerful web application that all
 + Version Control: Git and GitHub
 
 ## Setup and Usage
-1. ### Clone the Repository:
-  git clone https://github.com/Anandoptimus/Day89.git
+1. **Clone the Repository:**
+    ```bash
+    git clone https://github.com/Anandoptimus/Day89.git
+    ```
+    
+2. **Navigate to the project directory:**
+    ```bash
+    cd Day89
+    ```
 
-2. ### Install Dependencies:
-  pip install -r requirements.txt
+3. **Install Dependencies:**
+   ```bash
+    pip install -r requirements.txt
+    ```
 
-3. ### Run the Application:
-  python app.py
-
-4. ### Access the Application:
+4. **Run the Application:**
+   ```bash
+    python app.py
+    ```
+   
+5. ### Access the Application:
   Open your web browser and go to http://localhost:5000/ to access the application.
 
 ## Project Structure
