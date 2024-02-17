@@ -32,7 +32,7 @@ This Python To-Do Note Project is a simple yet powerful web application that all
 
 4. **Run the Application:**
    ```bash
-    python app.py
+    python main.py
     ```
    
 5. ### Access the Application:
