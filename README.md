@@ -17,12 +17,12 @@ This Python To-Do Note Project is a simple yet powerful web application that all
 ## Setup and Usage
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/Anandoptimus/Day89.git
+    git clone https://github.com/Anandoptimus/Python To-Do Note Project.git
     ```
     
 2. **Navigate to the project directory:**
     ```bash
-    cd Day89
+    cd Python To-Do Note Project
     ```
 
 3. **Install Dependencies:**
